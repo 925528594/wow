@@ -1,10 +1,10 @@
 {
-    "name": "925528594/gari",
+    "name": "925528594/wow",
     "type": "project",
-    "description": "The Gari Framework.",
+    "description": "The Wow Framework of PHP.",
     "keywords": [
         "framework",
-        "gari"
+        "wow"
     ],
     "license": "MIT",
     "require": {
