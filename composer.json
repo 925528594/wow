@@ -8,7 +8,9 @@
     ],
     "license": "MIT",
     "require": {
-        "925528594/php-package": "^1.0"
+        "php": "^7.2",
+        "925528594/wow-framework": "^1.0",
+        "catfan/medoo": "^1.7"
     },
     "config": {
         "optimize-autoloader": true
