@@ -34,7 +34,7 @@ class BaseModel
     public static function getInstance($config = null)
     {
         if (!$config) {
-            $config = require_once( config('database') . DIRECTORY_SEPARATOR . 'database.php' );
+            $config = config('database');
         }
         if (!(self::$_instance instanceof Medoo)) {
             self::$_instance = new Medoo($config);
