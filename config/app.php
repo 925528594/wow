@@ -10,11 +10,11 @@ return [
     /*
      * DEBUG模式
      */
-    'debug' => env('APP_DEBUG', false),
+    'debug' => false,
 
     /*
      * 时区设置
      */
-    'timezone' => env('APP_TIMEZONE', 'RPC'),
+    'timezone' => 'UTC',
 
 ];
