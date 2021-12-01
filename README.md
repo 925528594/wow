@@ -17,7 +17,7 @@ composer install
 ```
 
 ## 相关依赖
-* [Wow Frame](https://github.com/925528594/wow-framework) Wow框架库
+* [Wow Framework](https://github.com/925528594/wow-framework) Wow框架库
 * [Medoo](https://github.com/catfan/Medoo) PHP数据库操作(已移植至Wow)
 
 ### 工具Composer
