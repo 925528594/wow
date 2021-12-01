@@ -1,5 +1,7 @@
 <?php
 
-use Negan\Routing\Route;
+use Negan\Support\Facades\Route;
 
-Route::any('/index', 'Controller@index');
+Route::get('/', function () {
+    return view('welcome');
+});
